@@ -13,8 +13,8 @@
                 Building reliable & lightweight applications like it's the 90s.
             </li>
             <li>
-                I mostly code in C but I also use Odin, Lua & Python depending
-                on the project.
+                I mostly code in C/C++ but I frequently use Lua & Python as
+                well.
             </li>
         </ul>
 
