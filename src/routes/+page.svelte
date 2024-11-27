@@ -2,7 +2,7 @@
     <div class="section-align">
         <h1>Aubrey Dominik</h1>
         <h2>
-            Software Developer (engines/games & tools),
+            Software Developer (games/engines & tools),
             <br />
             reinventer of wheels & lifelong learner.
         </h2>
@@ -12,9 +12,7 @@
             <li>
                 Building reliable & lightweight applications like it's the 90s.
             </li>
-            <li>
-                I mostly code in C but I frequently use Lua & Python as well.
-            </li>
+            <li>Coding in C, with a touch of Lua and Python on the side.</li>
         </ul>
 
         <h2>
@@ -25,11 +23,14 @@
         </h2>
 
         <div class="button-container">
-            <a href="https://github.com/aubs-dev" target="_blank"
-                ><button>Github</button></a
-            >
             <a href="mailto:hello@aubs.dev" target="_blank"
-                ><button class="inverse-button">Contact Me</button></a
+                ><button>Contact Me</button></a
+            >
+            <a href="https://github.com/aubs-dev" target="_blank"
+                ><button class="inverse-button">Github</button></a
+            >
+            <a href="https://bsky.app/profile/aubs.dev" target="_blank"
+                ><button class="inverse-button">Bluesky</button></a
             >
         </div>
     </div>
