@@ -95,8 +95,8 @@
 
     li {
         padding-bottom: 0.65em;
-        font-family: "Montserrat Alternates", sans-serif;
-        font-size: 0.875rem;
+        font-family: "Karla", sans-serif;
+        font-size: 1rem;
         font-weight: 300;
         line-height: 1.25rem;
         list-style-type: ">";
