@@ -12,7 +12,10 @@
             <li>
                 Building reliable & lightweight applications like it's the 90s.
             </li>
-            <li>Coding in C, with a touch of Lua and Python on the side.</li>
+            <li>
+                Coding in both C & C++, with a touch of Lua and Python on the
+                side.
+            </li>
         </ul>
 
         <h2>
