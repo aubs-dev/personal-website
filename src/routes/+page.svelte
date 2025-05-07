@@ -1,63 +1,46 @@
 <section id="profile">
+    <a href="https://aubs.dev">
+        <img
+            src="profile.png"
+            alt="cute smily face logo with big eye lashes"
+            width="200px"
+        />
+    </a>
+    <h1>- Aubrey Dominik -</h1>
+
     <div class="section-align">
-        <h1>Aubrey Dominik</h1>
-        <h2>
-            Software Developer (games/engines & tools),
-            <br />
-            reinventer of wheels & lifelong learner.
-        </h2>
+        <p>Curious programmer making games/engines and tools from scratch.</p>
 
-        <ul>
-            <li>Based in <span>Lisbon</span>, <span>PT</span>.</li>
-            <li>
-                Building reliable & lightweight applications like it's the 90s.
-            </li>
-            <li>
-                Coding in both C & C++, with a touch of Lua and Python on the
-                side.
-            </li>
-        </ul>
-
-        <h2>
+        <p>
             Here are my <a
                 href="https://github.com/aubs-dev/dotfiles"
                 target="_blank"><span>Dotfiles</span></a
             >.
-        </h2>
+        </p>
 
         <div class="button-container">
             <a href="mailto:hello@aubs.dev" target="_blank"
                 ><button>Contact Me</button></a
             >
             <a href="https://github.com/aubs-dev" target="_blank"
-                ><button class="inverse-button">Github</button></a
+                ><button>Github</button></a
             >
             <a href="https://bsky.app/profile/aubs.dev" target="_blank"
-                ><button class="inverse-button">Bluesky</button></a
+                ><button>Bluesky</button></a
             >
         </div>
     </div>
 </section>
 
 <style>
-    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
-    @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300..700&display=swap");
 
     * {
         margin: 0;
         padding: 0;
         list-style: none;
         text-decoration: none;
-    }
-
-    a > span:hover {
-        text-decoration: underline;
-    }
-
-    span {
-        color: #ff004d;
-        font-weight: 400;
     }
 
     section {
@@ -70,70 +53,43 @@
     }
 
     .section-align {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: left;
+        width: 500px;
     }
 
     h1 {
+        margin-top: -0.25em;
         margin-bottom: 0.25em;
-        font-family: "Lato", sans-serif;
-        font-size: 2.5em;
-        font-weight: 700;
-        color: #ff004d;
+        font-family: "Fredoka", sans-serif;
+        font-size: 2.75em;
+        font-weight: 600;
+        color: #000000;
     }
 
-    h2 {
+    p {
         margin-bottom: 0.5em;
-        font-family: "Karla", sans-serif;
-        font-size: 1.25em;
-        font-weight: 400;
-        color: #05010c;
+        font-family: "Nunito", sans-serif;
+        font-size: 1.5em;
+        font-weight: 500;
+        color: #00021c;
     }
 
-    ul {
-        padding-left: 0.5em;
+    span {
+        color: #0b8be6;
+        font-weight: 700;
     }
 
-    li {
-        padding-bottom: 0.65em;
-        font-family: "Karla", sans-serif;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.25rem;
-        list-style-type: ">";
-        padding-inline-start: 0.5em;
-    }
-
-    li::marker {
-        color: #333333;
-        font-size: 0.8rem;
-    }
-
-    button {
-        width: 8rem;
-        height: 2.5rem;
-        margin-right: 1.25rem;
-        font-family: "Lato", sans-serif;
-        font-size: 0.875rem;
-        font-weight: 400;
-        color: #f7f1e8;
-        background-color: #ff004d;
-        border-style: solid;
-        border-color: #ff004d;
-        border-width: 2px;
+    span:hover {
+        color: #d9214f;
         transition: all;
         transition-duration: 150ms;
-        cursor: pointer;
     }
 
-    button:hover {
-        box-shadow: -4px 4px 0px 0px black;
-        transform: scale(1.1, 1.1);
+    a > span:hover {
+        text-decoration: underline;
     }
 
     .button-container {
+        margin-top: 1em;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -141,8 +97,28 @@
         justify-content: center;
     }
 
-    .inverse-button {
-        color: #ff004d;
-        background-color: transparent;
+    button {
+        width: 9rem;
+        height: 3rem;
+        margin-right: 1em;
+        font-family: "Nunito", sans-serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #f0edd8;
+        background-color: #0b8be6;
+        border-style: solid;
+        border-color: #0b8be6;
+        border-width: 4px;
+        border-radius: 5px;
+        transition: all;
+        transition-duration: 150ms;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #d9214f;
+        border-color: #d9214f;
+        box-shadow: -5px 5px 0px 0px #00021c;
+        transform: scale(1.1, 1.1);
     }
 </style>
